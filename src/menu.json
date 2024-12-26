@@ -1,0 +1,148 @@
+[
+  {
+      "name": "Home",
+      "icon": "faHome",
+      "submenus": [
+          {
+              "name": "Submenu 1",
+              "subsubmenus": [
+                  { "name": "Option A" },
+                  { "name": "Option B" }
+              ]
+          },
+          {
+              "name": "Submenu 2",
+              "subsubmenus": [
+                  { "name": "Option X" },
+                  { "name": "Option Y" }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "Dashboard",
+      "icon": "faChartBar",
+      "submenus": [
+          {
+              "name": "Analytics",
+              "subsubmenus": [
+                  { "name": "Overview" },
+                  { "name": "Detailed View" },
+                  {
+                      "name": "Advanced Analytics",
+                      "subsubmenus": [
+                          { "name": "Forecasting" },
+                          { "name": "Trends" }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name": "Reports",
+              "subsubmenus": [
+                  { "name": "Monthly Reports" },
+                  { "name": "Yearly Reports" },
+                  {
+                      "name": "Custom Reports",
+                      "subsubmenus": [
+                          { "name": "Sales Reports" },
+                          { "name": "User Reports" }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "Profile",
+      "icon": "faUser",
+      "submenus": [
+          {
+              "name": "Account Settings",
+              "subsubmenus": [
+                  { "name": "Privacy" },
+                  { "name": "Notifications" }
+              ]
+          },
+          {
+              "name": "Personal Info",
+              "subsubmenus": [
+                  { "name": "Name" },
+                  { "name": "Email" }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "Messages",
+      "icon": "faEnvelope",
+      "submenus": [
+          {
+              "name": "Inbox",
+              "subsubmenus": [
+                  { "name": "Unread" },
+                  { "name": "Archived" },
+                  {
+                      "name": "Filters",
+                      "subsubmenus": [
+                          { "name": "By Date" },
+                          { "name": "By Sender" }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name": "Sent",
+              "subsubmenus": [
+                  { "name": "Sent Messages" },
+                  { "name": "Drafts" }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "Settings",
+      "icon": "faCog",
+      "submenus": [
+          {
+              "name": "General",
+              "subsubmenus": [
+                  { "name": "Language" },
+                  { "name": "Timezone" }
+              ]
+          },
+          {
+              "name": "Security",
+              "subsubmenus": [
+                  { "name": "Two-factor Authentication" },
+                  { "name": "Password Change" }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "Help",
+      "icon": "faQuestionCircle",
+      "submenus": [
+          {
+              "name": "FAQ",
+              "subsubmenus": [
+                  { "name": "Account Issues" },
+                  { "name": "Billing Issues" }
+              ]
+          },
+          {
+              "name": "Support",
+              "subsubmenus": [
+                  { "name": "Contact Support" },
+                  { "name": "Submit a Ticket" }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "Logout",
+      "icon": "faSignOutAlt",
+      "submenus": []
+  }
+]

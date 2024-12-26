@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradient-text {
+    
+  background: linear-gradient(
+    to right, 
+    rgb(240, 12, 12), 
+    rgb(208, 114, 59), 
+    rgb(248, 188, 77), 
+    rgb(125, 125, 230),
+    rgb(11, 11, 242)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+}
+
+@keyframes move {
+  100% {
+      transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: auto;
+  background-color: #f4f4f4;
+}
+
+
+.content {
+  flex: 1;
+  /* padding: 1rem; */
+  overflow-y: auto;
+}
